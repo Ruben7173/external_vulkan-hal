@@ -38,7 +38,7 @@ LOCAL_C_INCLUDES := \
 
 LOCAL_SHARED_LIBRARIES := libvulkan liblog libdl libcutils libsync
 
-LOCAL_MODULE := vulkan.$(TARGET_BOARD_PLATFORM)
+LOCAL_MODULE := vulkan.mesa
 #Prefered path for Vulkan is /vendor/lib/hw
 LOCAL_PROPRIETARY_MODULE := true
 LOCAL_MODULE_RELATIVE_PATH := hw
